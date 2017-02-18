@@ -79,11 +79,24 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
+
+alias gdrive="cd ~/gdrive/"
+alias work="cd ~/gdrive/Work/Exponea/dev/"
+alias dp="cd ~/gdrive/Education/Master/Diplomovka/"
+alias pvid="cd ~/gdrive/Education/Master/4.LS/Pocitacove\ Videnie/"
+alias ds="cd ~/gdrive/Data\ Science/"
+alias ..="cd .."
+alias ...="cd ../../"
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+#
 # python locale fix
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
+
+# Custom settings
+# enable 256 colors
+export TERM=xterm-256color
