@@ -3,6 +3,7 @@
 brew install jq
 brew install python3 node yarn
 brew install macvim --override-system-vim
+brew install tmux
 pip3 install powerline-status
 
 # VIM setup
@@ -14,3 +15,6 @@ curl -fLo ~/.vim/colors/onedark.vim --create-dirs \
 
 # TMUX plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# set backspace speed at maximum
+defaults write NSGlobalDomain KeyRepeat -int 0
