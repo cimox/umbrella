@@ -19,11 +19,16 @@ Plug 'aliev/vim-compiler-python'
 Plug 'stephpy/vim-yaml'
 Plug 'fatih/vim-go'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'nvie/vim-flake8'
 
 call plug#end()
 
 " enable statusline (lightline)
 set laststatus=2
+
+" enable PEP8 vertical column
+set colorcolumn=120
 
 " enable syntax and onedark theme
 syntax on
